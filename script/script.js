@@ -27,7 +27,7 @@ function operate(x, y, operator) {
         result = multiply(x, y);
     }
     else if (operator === 'divide') {
-        result = divide(x, y).toFixed(2);
+        result = divide(x, y).toFixed(5);
     }
     return result;
 }
