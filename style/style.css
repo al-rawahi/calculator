@@ -1,0 +1,54 @@
+body {
+    background-color: black;
+    background-image: url(../images/mathBackground.jpeg);
+}
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.calculator {
+    border: 3px solid white;
+    background-color: black;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+button {
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10%;
+}
+td {
+    text-align: center;
+}
+button:hover {
+    cursor: pointer;
+    background: rgb(173, 173, 173);
+}
+.calculatorDisplay {
+    text-align: left;
+    font-size: 32px;
+    color: white;
+    padding: 10px 20px;
+    margin: auto;
+    background-color: rgb(124, 121, 114);
+    width: 50%;
+}
+.calculatorButtons, .calculatorKeys {
+    margin: auto;
+}
+.operator, .equal {
+    background-color: rgb(223, 158, 37);
+}
+#clear_button, #zeroButton {
+    width: 100%;
+}
+small {
+    color: rgb(199, 199, 199);
+}
+footer {
+    margin: auto;
+    width: 20%;
+    padding: 2%;
+}
