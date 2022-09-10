@@ -40,7 +40,7 @@ keys.addEventListener('click', e => {
     const displayedNum = display.textContent;
     const previousKeyType = calculator.dataset.previousKeyType;
     Array.from(key.parentNode.children)
-      .forEach(k => k.classList.remove('isDepressed'));
+      .forEach(k => k.classList.remove('is-depressed'));
     //If a number is pressed
     if (!action) {
         if (displayedNum === '0' || previousKeyType === 'operator' || previousKeyType === 'calculate') {
@@ -64,7 +64,7 @@ keys.addEventListener('click', e => {
         else {
             calculator.dataset.firstValue = displayedNum;
         }
-        key.classList.add('isDepressed');
+        key.classList.add('is-depressed');
         calculator.dataset.previousKeyType = 'operator';
         calculator.dataset.operator = action;
     }
